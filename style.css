@@ -113,7 +113,7 @@
 .main {
     font-size: 18px;
     background: #F2E3D5;
-    padding: 80px;
+    padding: 40px;
     padding-top: 100px;
     text-align: justify;
 }
@@ -315,6 +315,11 @@ a {
 
 @media screen and (min-width: 768px){
 
+    .main {
+        padding: 70px;
+        padding-top: 120px;
+    }
+
     .column {
         flex: 50%;
         max-width: 50%;
@@ -391,7 +396,7 @@ a {
     .main {
         /* flex-grow: 3; */
         margin: 150px 250px 0px 250px;
-        padding: 150px 50px;
+        padding: 100px 80px;
 
     }
 
