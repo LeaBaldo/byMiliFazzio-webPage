@@ -403,11 +403,11 @@ a {
     
     .overlay {
         
-        left: 10px;
-        width: 98vw;
+        width: 100vw;
     }
 
     .slideshow {
+        left: -10px;
         width: 96%;
     }
 
