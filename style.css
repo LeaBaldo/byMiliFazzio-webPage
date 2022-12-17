@@ -47,9 +47,9 @@
 
 .header-container {
     background-image: url(./fondo-hojas.webp);
-    /* background-position: bottom 200px; */
-    background-size: contain;
     background-attachment: fixed;
+    background-size: contain;
+    background-position: 0px 60px;
     /* background-repeat: no-repeat; */
     /* box-shadow: 0px 1px 15px 1px #012E40; */
     /* margin-top: calc(10%); */
@@ -370,7 +370,7 @@ a {
         background-repeat: repeat;
     }
 
-    .header-container__logo img {
+    .header-container__img {
         display: flex;
         transform: scale(1.5);
         margin: auto;
