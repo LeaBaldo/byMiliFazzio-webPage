@@ -161,7 +161,13 @@
 }
 
 .main__aboutMe {
+    font-family: 'Pompiere', cursive;
+    font-size: 24px;
     padding-top: 40px;
+}
+
+.main__trademark{
+    font-size: 18px;
 }
 
 .main__gallery {
