@@ -28,8 +28,9 @@
 
 .bar {
     background: var(--color-verdeAgua);
-    background-image: url(./MUEBLESchicos.svg);
+    background-image: url(./MUEBLES\ PAGINA\ largo2.svg);
     background-position: center;
+    background-size: 250%;
     position: relative;
     z-index: 5;
     width: 100%;
@@ -187,6 +188,47 @@ a {
     letter-spacing: 1px;
 }
 
+.fixed-button {
+    position: fixed;
+    background: var(--color-verdeAguaHover);
+    cursor: pointer;
+    border: none;
+    /* border: 2px solid var(--color-cream3); */
+    box-shadow: 0px 0px 10px 3px rgba(54, 247, 247, 0.5);
+    box-shadow: 0px 0px 10px 3px var(--color-cream2);
+    filter: opacity(50%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    display: none;
+    justify-content: end;
+    align-items: center;
+    z-index: 2000;
+}
+
+.fixed-button:hover {
+    filter:opacity(100%);
+    transform: scale(1.2);
+    transition: transform, 0.3s;
+}
+
+.show-button {
+    display: block;
+}
+
+.btnUp {
+    color: var(--color-cream2);
+    filter: opacity(100%);
+    margin-top: 5px;
+    height: 40px;
+    width: 30px;
+
+
+    /* font-size: 25px; */
+}
+
 .aside {
     background: #026773;
     justify-content: center;
@@ -195,12 +237,12 @@ a {
 }
 
 .aside__container {
-    background-image: url(./MUEBLESchicos.svg);
+    background-image: url(./MUEBLES\ PAGINA\ largo2.svg);
     background-position: center;
+    background-size: 220%;
     color:#F2E3D5;
-    background-size: 800px;
     padding: 50px;
-
+    box-shadow: 0px 1px 15px 1px #012E40;
 }
 
 .footer {
@@ -402,7 +444,7 @@ a {
         padding-top: 120px;
     }
 
-    
+
     .abanico {
         height: 48px;
         width: 120px;
@@ -455,12 +497,16 @@ a {
     body {
         overflow-x: hidden;
     }
-    
+
     .header-container {
         background-size: cover;
         background-repeat: repeat;
     }
 
+    .header-container__logo {
+        margin-top: 140px;
+        margin-bottom: 0px;
+    }
     .header-container__img {
         display: flex;
         transform: scale(1.5);
@@ -502,9 +548,9 @@ a {
         box-shadow: 2px 2px 8px #026773;
         z-index: 100;
     }
-        
 
-        
+
+
     .abanico__item--2 {
         /* background-color: #024959; */
         background-color: #9EF8EE;
@@ -664,7 +710,7 @@ a {
         margin-top: -20px;
     }
 
-    .container11{
+    .rain-container{
         display: flex;
     }
 
@@ -677,12 +723,12 @@ a {
         animation-iteration-count: infinite;
         /* animation-name: raining2;
         animation-name: raining1; */
-        
+
     }
 
     .rain-container__item--1 {
         /* background-color: red; */
-        transform: translate(35vh);
+        transform: translate(0vh);
         /* transform: rotate(0deg); */
         animation-name: raining1;
         animation-duration: 40s;
@@ -690,7 +736,7 @@ a {
 
     .rain-container__item--2 {
         /* background-color: #9EF8EE; */
-        transform: translate(70vh);
+        transform: translate(15vh);
         /* transform: rotate(500deg); */
         animation-name: raining1;
         animation-duration: 40s;
@@ -699,7 +745,7 @@ a {
 
     .rain-container__item--3 {
         /* background-color: #9EF8EE; */
-        transform: translate(100vh);
+        transform: translate(30vh);
         /* transform: rotate(500deg); */
         animation-name: raining1;
         animation-duration: 40s;
@@ -708,14 +754,14 @@ a {
 
     .rain-container__item--4 {
         /* background-color: #9EF8EE; */
-        transform: translate(130vh);
+        transform: translate(45vh);
          animation-name: raining1;
         animation-duration: 30s;
     }
 
     .rain-container__item--5 {
         /* background-color: #9EF8EE; */
-        transform: translate(170vh);
+        transform: translate(65vh);
         animation-name: raining1;
         animation-duration: 30s;
         animation-delay: 4s;
@@ -723,22 +769,22 @@ a {
     }
     .rain-container__item--6 {
         /* background-color: #9EF8EE; */
-        transform: translate(210vh);
+        transform: translate(85vh);
         animation-name: raining1;
         animation-duration: 30s;
         animation-delay: 8s;
     }
     .rain-container__item--7 {
         /* background-color: #9EF8EE; */
-        transform: translate(250vh);
+        transform: translate(100vh);
         animation-name: raining1;
         animation-duration: 30s;
-        animation-delay: 10s;
+        animation-delay: 14s;
     }
 
     .rain-container__item--8 {
         /* background-color: yellow; */
-        transform: translate(-20vh);
+        transform: translate(0vh);
         animation-name: raining2;
         animation-duration: 30s;
         animation-delay: 10s;
@@ -746,7 +792,7 @@ a {
     .rain-container__item--9 {
         /* background-color: yellow; */
         /* background-color: #9EF8EE; */
-        transform: translate(0vh);
+        transform: translate(15vh);
         animation-name: raining2;
         animation-duration: 30s;
         animation-delay: 15s;
@@ -754,23 +800,23 @@ a {
     .rain-container__item--10 {
         /* background-color: yellow; */
         /* background-color: #9EF8EE; */
-        transform: translate(80vh);
-        animation-name: raining2;
-        animation-duration: 30s;
-        animation-delay: 20s;
-    }
-    .rain-container__item--11 {
-        /* background-color: yellow; */
-        /* background-color: #9EF8EE; */
-        transform: translate(110vh);
+        transform: translate(40vh);
         animation-name: raining2;
         animation-duration: 30s;
         animation-delay: 25s;
     }
+    .rain-container__item--11 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(55vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 30s;
+    }
     .rain-container__item--12 {
         /* background-color: yellow; */
         /* background-color: #9EF8EE; */
-        transform: translate(130vh);
+        transform: translate(65vh);
         animation-name: raining2;
         animation-duration: 30s;
         animation-delay: 20s;
@@ -778,7 +824,7 @@ a {
     .rain-container__item--13 {
         /* background-color: yellow; */
         /* background-color: #9EF8EE; */
-        transform: translate(170vh);
+        transform: translate(80vh);
         animation-name: raining2;
         animation-duration: 30s;
         animation-delay: 17s;
@@ -786,21 +832,70 @@ a {
     .rain-container__item--14 {
         /* background-color: yellow; */
         /* background-color: #9EF8EE; */
-        transform: translate(200vh);
+        transform: translate(100vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 15s;
+    }
+    .rain-container__item--15 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(70vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 20s;
+    }
+    .rain-container__item--16 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(30vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 5s;
+    }
+    .rain-container__item--17 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(0vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 17s;
+    }
+    .rain-container__item--18 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(100vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 15s;
+    }
+    .rain-container__item--19 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(100vh);
         animation-name: raining2;
         animation-duration: 30s;
         animation-delay: 10s;
     }
+    .rain-container__item--20 {
+        /* background-color: yellow; */
+        /* background-color: #9EF8EE; */
+        transform: translate(80vh);
+        animation-name: raining2;
+        animation-duration: 30s;
+        animation-delay: 1s;
+    }
 
-    
+
+
     @keyframes raining1 {
         0% {
             filter: opacity(100%);
         }
 
         100% {
-            transform: 
-            translate(0vh, 250vh)
+            transform:
+            translate(0vh, 260vh)
             rotate(400deg)
             scale(1.5);
             filter: opacity(30%);
@@ -815,8 +910,8 @@ a {
         }
 
         100% {
-            transform: 
-            translate(50vh, 250vh)
+            transform:
+            translate(70vh, 260vh)
             rotate(-500deg)
             scale(.8);
             filter: opacity(30%);
@@ -829,7 +924,7 @@ a {
 
     .main {
         /* flex-grow: 3; */
-        margin: 150px 250px 0px;
+        margin: 150px 160px 0px;
         padding: 100px 80px 0px;
     }
 
@@ -879,7 +974,7 @@ a {
 
     .aside__container {
         padding: 50px;
-        background-color: #024959;
+        background-color: var(--color-darkGreen2);
         /* background-image: none; */
 
     }
