@@ -74,7 +74,6 @@ const button = document.querySelector('.fixed-button');
 
 window.onscroll = function() {
     if (window.pageYOffset > 500) {
-        console.log(window.pageYOffset)
         button.classList.add('show-button');
     } else {
         button.classList.remove('show-button')

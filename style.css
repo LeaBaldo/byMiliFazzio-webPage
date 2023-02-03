@@ -30,7 +30,7 @@
     background: var(--color-verdeAgua);
     background-image: url(./MUEBLES\ PAGINA\ largo2.svg);
     background-position: center;
-    background-size: 250%;
+    background-size: 700%;
     position: relative;
     z-index: 5;
     width: 100%;
@@ -206,6 +206,9 @@ a {
     justify-content: end;
     align-items: center;
     z-index: 2000;
+    transition: 0.3s;
+
+    
 }
 
 .fixed-button:hover {
@@ -239,7 +242,7 @@ a {
 .aside__container {
     background-image: url(./MUEBLES\ PAGINA\ largo2.svg);
     background-position: center;
-    background-size: 220%;
+    background-size: 700%;
     color:#F2E3D5;
     padding: 50px;
     box-shadow: 0px 1px 15px 1px #012E40;
@@ -445,6 +448,10 @@ a {
     }
 
 
+    .bar {
+        background-size: 400%;
+    }
+
     .abanico {
         height: 48px;
         width: 120px;
@@ -485,6 +492,9 @@ a {
         width: 90%;
     }
 
+    .aside__container {
+        background-size: 400%;
+    }
 }
 
 
@@ -516,6 +526,7 @@ a {
 
     .bar {
         padding: 40px;
+        background-size: 250%;
     }
 
     .header-container__list {
@@ -975,6 +986,7 @@ a {
     .aside__container {
         padding: 50px;
         background-color: var(--color-darkGreen2);
+        background-size: 220%;
         /* background-image: none; */
 
     }
@@ -983,4 +995,15 @@ a {
         background-color: #026773;
     }
 
+    .footer__parrafo {
+        font-size: 25px;
+        margin: 15px auto 25px;
+        letter-spacing: 2px;
+    }
+
+    .fa-instagram, .fa-envelope  {
+        font-size: 30px;
+        text-decoration: none;
+        color: var(--color-cream);
+    }
 }
