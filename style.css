@@ -46,7 +46,7 @@
 }
 
 .header-container {
-    /* background-image: url(./fondo-hojas.webp); */
+    background-image: url(./fondo-hojas.webp);
     background-attachment: fixed;
     background-size: contain;
     background-position: 0px 60px;
@@ -733,7 +733,7 @@ a {
 
     article {
         background-color: var(--color-verdeAgua);
-        background-image: url(./fondo-hojas.webp);
+        /* background-image: url(./fondo-hojas.webp); */
         background-blend-mode: multiply;
         background-size: 100%;
         /* flex-shrink: 2; */
